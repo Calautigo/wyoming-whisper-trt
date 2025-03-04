@@ -19,7 +19,7 @@ on:
 jobs:
    build_and_push_images:
     name: Build and Push Docker Images
-    runs-on: Linux
+    runs-on: ubuntu-latest
     permissions:
       packages: write
       contents: read
